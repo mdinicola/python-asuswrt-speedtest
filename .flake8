@@ -1,0 +1,14 @@
+[flake8]
+exclude = 
+    __pycache__
+    .git,
+    .aws-sam,
+    .env,
+    env
+
+# E128: continuation line under-indented for visual indent
+# W503: line break before binary operator
+ignore=E128,W503
+
+# The GitHub editor is 127 chars wide
+max-line-length = 127
