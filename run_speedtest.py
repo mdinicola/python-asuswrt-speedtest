@@ -3,11 +3,15 @@ import logging
 import sys
 import time
 import json
+import configparser
 from pyasuswrt import AsusWrtError, AsusWrtHttp
 
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 logging.getLogger('asyncio').setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
+
+config = configparser.ConfigParser()
+config.read('config/config.ini')
 
 async def asus_get_speedtest_history(client: AsusWrtHttp):
     pass
@@ -29,7 +33,11 @@ async def asus_get_speedtest_result(client: AsusWrtHttp):
     pass
 
 
-async def wait_and_return_speedtest_result(client: AsusWrtHttp, timeout: int = 120, poll_frequency: int = 15):
+async def wait_and_return_speedtest_result(
+    client: AsusWrtHttp, 
+    timeout: int = config.getint('speedtest', 'default_timeout'), 
+    poll_frequency: int = config.getint('speedtest', 'default_poll_frequency')
+):
     pass
 
 
@@ -40,5 +48,5 @@ def convert_history_to_payload():
 async def run_speedtest():
     pass
 
-asyncio.run(run_speedtest())
+# asyncio.run(run_speedtest())
 
