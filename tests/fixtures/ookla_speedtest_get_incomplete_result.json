@@ -1,0 +1,3390 @@
+{
+    "ookla_speedtest_get_result": [
+        {
+            "type": "testStart",
+            "timestamp": "2024-12-25T04:02:05Z",
+            "isp": "Bell Canada",
+            "interface": {
+                "internalIp": "142.126.86.207",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "142.126.86.207"
+            },
+            "server": {
+                "id": 16753,
+                "host": "tor11speedtest01.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Mobility",
+                "location": "Toronto, ON",
+                "country": "Canada",
+                "ip": "209.71.215.2"
+            }
+        },
+        {
+            "type": "ping",
+            "timestamp": "2024-12-25T04:02:05Z",
+            "ping": {
+                "jitter": 0,
+                "latency": 2.027,
+                "progress": 0.2
+            }
+        },
+        {
+            "type": "ping",
+            "timestamp": "2024-12-25T04:02:05Z",
+            "ping": {
+                "jitter": 0.552,
+                "latency": 1.475,
+                "progress": 0.4
+            }
+        },
+        {
+            "type": "ping",
+            "timestamp": "2024-12-25T04:02:05Z",
+            "ping": {
+                "jitter": 0.35,
+                "latency": 1.622,
+                "progress": 0.6
+            }
+        },
+        {
+            "type": "ping",
+            "timestamp": "2024-12-25T04:02:05Z",
+            "ping": {
+                "jitter": 0.268,
+                "latency": 1.727,
+                "progress": 0.8
+            }
+        },
+        {
+            "type": "ping",
+            "timestamp": "2024-12-25T04:02:05Z",
+            "ping": {
+                "jitter": 0.274,
+                "latency": 1.435,
+                "progress": 1
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:05Z",
+            "download": {
+                "bandwidth": 129261176,
+                "bytes": 1098720,
+                "elapsed": 8,
+                "progress": 0.001
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:05Z",
+            "download": {
+                "bandwidth": 81707562,
+                "bytes": 8986688,
+                "elapsed": 109,
+                "progress": 0.011
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:05Z",
+            "download": {
+                "bandwidth": 106931152,
+                "bytes": 22606208,
+                "elapsed": 211,
+                "progress": 0.021
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:05Z",
+            "download": {
+                "bandwidth": 126974362,
+                "bytes": 39731040,
+                "elapsed": 312,
+                "progress": 0.031
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:06Z",
+            "download": {
+                "bandwidth": 138780849,
+                "bytes": 57627360,
+                "elapsed": 415,
+                "progress": 0.042
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:06Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 147671988,
+                "bytes": 76352768,
+                "elapsed": 517,
+                "progress": 0.052
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:06Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 151862399,
+                "bytes": 93960000,
+                "elapsed": 618,
+                "progress": 0.062
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:06Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 158832831,
+                "bytes": 114441120,
+                "elapsed": 720,
+                "progress": 0.072
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:06Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 164921161,
+                "bytes": 135616320,
+                "elapsed": 822,
+                "progress": 0.082
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:06Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 168868372,
+                "bytes": 156025088,
+                "elapsed": 923,
+                "progress": 0.092
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:06Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 172144315,
+                "bytes": 176558784,
+                "elapsed": 1025,
+                "progress": 0.103
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:06Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 174832402,
+                "bytes": 197084896,
+                "elapsed": 1127,
+                "progress": 0.113
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:06Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 176789619,
+                "bytes": 217247040,
+                "elapsed": 1228,
+                "progress": 0.123
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:07Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 178475375,
+                "bytes": 237640320,
+                "elapsed": 1331,
+                "progress": 0.133
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:07Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 179964217,
+                "bytes": 257926336,
+                "elapsed": 1433,
+                "progress": 0.143
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:07Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 179576691,
+                "bytes": 275655968,
+                "elapsed": 1535,
+                "progress": 0.154
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:07Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 185075281,
+                "bytes": 296194688,
+                "elapsed": 1636,
+                "progress": 0.164
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:07Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 186840184,
+                "bytes": 316875968,
+                "elapsed": 1738,
+                "progress": 0.174
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:07Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 187886306,
+                "bytes": 337314240,
+                "elapsed": 1841,
+                "progress": 0.184
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:07Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 188652699,
+                "bytes": 357365888,
+                "elapsed": 1943,
+                "progress": 0.194
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:07Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 189608445,
+                "bytes": 377767808,
+                "elapsed": 2044,
+                "progress": 0.204
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:07Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 188615549,
+                "bytes": 395651904,
+                "elapsed": 2146,
+                "progress": 0.215
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:07Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 189056565,
+                "bytes": 415391040,
+                "elapsed": 2248,
+                "progress": 0.225
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:08Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 190046170,
+                "bytes": 436046400,
+                "elapsed": 2350,
+                "progress": 0.235
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:08Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 189089862,
+                "bytes": 453662656,
+                "elapsed": 2451,
+                "progress": 0.245
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:08Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 189650978,
+                "bytes": 473779808,
+                "elapsed": 2553,
+                "progress": 0.255
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:08Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 189468469,
+                "bytes": 492579360,
+                "elapsed": 2655,
+                "progress": 0.266
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:08Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 190321637,
+                "bytes": 513326528,
+                "elapsed": 2757,
+                "progress": 0.276
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:08Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 191064358,
+                "bytes": 534160448,
+                "elapsed": 2860,
+                "progress": 0.286
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:08Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 190936737,
+                "bytes": 553137120,
+                "elapsed": 2961,
+                "progress": 0.296
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:08Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 191685637,
+                "bytes": 573995168,
+                "elapsed": 3063,
+                "progress": 0.306
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:08Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 192288435,
+                "bytes": 594637216,
+                "elapsed": 3165,
+                "progress": 0.317
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:08Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 191275775,
+                "bytes": 611563680,
+                "elapsed": 3267,
+                "progress": 0.327
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:09Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 190756813,
+                "bytes": 629498880,
+                "elapsed": 3369,
+                "progress": 0.337
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:09Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 190525064,
+                "bytes": 648099360,
+                "elapsed": 3470,
+                "progress": 0.347
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:09Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 190797556,
+                "bytes": 667956608,
+                "elapsed": 3572,
+                "progress": 0.357
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:09Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 191357159,
+                "bytes": 688629600,
+                "elapsed": 3674,
+                "progress": 0.367
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:09Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 191019350,
+                "bytes": 707071328,
+                "elapsed": 3776,
+                "progress": 0.378
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:09Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 191698518,
+                "bytes": 728254816,
+                "elapsed": 3878,
+                "progress": 0.388
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:09Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 191932827,
+                "bytes": 748196288,
+                "elapsed": 3980,
+                "progress": 0.398
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:09Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 192217523,
+                "bytes": 768324960,
+                "elapsed": 4082,
+                "progress": 0.408
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:09Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 192505232,
+                "bytes": 788482816,
+                "elapsed": 4184,
+                "progress": 0.418
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:09Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 192921126,
+                "bytes": 809114048,
+                "elapsed": 4286,
+                "progress": 0.429
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:10Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193337852,
+                "bytes": 829809376,
+                "elapsed": 4387,
+                "progress": 0.439
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:10Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193669319,
+                "bytes": 850279328,
+                "elapsed": 4489,
+                "progress": 0.449
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:10Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193600467,
+                "bytes": 869431680,
+                "elapsed": 4591,
+                "progress": 0.459
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:10Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193943279,
+                "bytes": 890035296,
+                "elapsed": 4692,
+                "progress": 0.469
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:10Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193718977,
+                "bytes": 908632800,
+                "elapsed": 4794,
+                "progress": 0.479
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:10Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193606472,
+                "bytes": 927781568,
+                "elapsed": 4897,
+                "progress": 0.49
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:10Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193566262,
+                "bytes": 946997280,
+                "elapsed": 4999,
+                "progress": 0.5
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:10Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193791773,
+                "bytes": 967571648,
+                "elapsed": 5100,
+                "progress": 0.51
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:10Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193907524,
+                "bytes": 987739200,
+                "elapsed": 5202,
+                "progress": 0.52
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:10Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194117448,
+                "bytes": 1008307808,
+                "elapsed": 5304,
+                "progress": 0.53
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:11Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193471382,
+                "bytes": 1025386560,
+                "elapsed": 5406,
+                "progress": 0.541
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:11Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193486004,
+                "bytes": 1045147680,
+                "elapsed": 5507,
+                "progress": 0.551
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:11Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193540588,
+                "bytes": 1065138848,
+                "elapsed": 5609,
+                "progress": 0.561
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:11Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193452275,
+                "bytes": 1084654080,
+                "elapsed": 5712,
+                "progress": 0.571
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:11Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 193682338,
+                "bytes": 1105393696,
+                "elapsed": 5814,
+                "progress": 0.581
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:11Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194014575,
+                "bytes": 1126697760,
+                "elapsed": 5916,
+                "progress": 0.592
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:11Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194494221,
+                "bytes": 1147145408,
+                "elapsed": 6018,
+                "progress": 0.602
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:11Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194478536,
+                "bytes": 1166615648,
+                "elapsed": 6120,
+                "progress": 0.612
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:11Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194603175,
+                "bytes": 1187940608,
+                "elapsed": 6221,
+                "progress": 0.622
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:11Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194540381,
+                "bytes": 1206807488,
+                "elapsed": 6323,
+                "progress": 0.632
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:12Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194261969,
+                "bytes": 1222422848,
+                "elapsed": 6425,
+                "progress": 0.643
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:12Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194162284,
+                "bytes": 1240441568,
+                "elapsed": 6527,
+                "progress": 0.653
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:12Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194248805,
+                "bytes": 1261242368,
+                "elapsed": 6629,
+                "progress": 0.663
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:12Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194321339,
+                "bytes": 1281889088,
+                "elapsed": 6730,
+                "progress": 0.673
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:12Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194077558,
+                "bytes": 1297211040,
+                "elapsed": 6833,
+                "progress": 0.683
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:12Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194176807,
+                "bytes": 1318275360,
+                "elapsed": 6935,
+                "progress": 0.694
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:12Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194134361,
+                "bytes": 1336717088,
+                "elapsed": 7037,
+                "progress": 0.704
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:12Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194198976,
+                "bytes": 1357354816,
+                "elapsed": 7139,
+                "progress": 0.714
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:12Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194273209,
+                "bytes": 1378225440,
+                "elapsed": 7241,
+                "progress": 0.724
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:13Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194221963,
+                "bytes": 1396325184,
+                "elapsed": 7343,
+                "progress": 0.734
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:13Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194180658,
+                "bytes": 1414468448,
+                "elapsed": 7444,
+                "progress": 0.744
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:13Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194167592,
+                "bytes": 1433161088,
+                "elapsed": 7546,
+                "progress": 0.755
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:13Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194236105,
+                "bytes": 1453992128,
+                "elapsed": 7648,
+                "progress": 0.765
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:13Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194257922,
+                "bytes": 1473797536,
+                "elapsed": 7750,
+                "progress": 0.775
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:13Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194284984,
+                "bytes": 1493598240,
+                "elapsed": 7852,
+                "progress": 0.785
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:13Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194291904,
+                "bytes": 1512842048,
+                "elapsed": 7954,
+                "progress": 0.795
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:13Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194341682,
+                "bytes": 1533443040,
+                "elapsed": 8056,
+                "progress": 0.806
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:13Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194368984,
+                "bytes": 1553347808,
+                "elapsed": 8158,
+                "progress": 0.816
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:13Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194413183,
+                "bytes": 1573983360,
+                "elapsed": 8260,
+                "progress": 0.826
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:14Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194449296,
+                "bytes": 1594401120,
+                "elapsed": 8361,
+                "progress": 0.836
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:14Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194474386,
+                "bytes": 1614448448,
+                "elapsed": 8463,
+                "progress": 0.846
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:14Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194469661,
+                "bytes": 1633026240,
+                "elapsed": 8565,
+                "progress": 0.857
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:14Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194504955,
+                "bytes": 1653642720,
+                "elapsed": 8667,
+                "progress": 0.867
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:14Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194523059,
+                "bytes": 1673409600,
+                "elapsed": 8768,
+                "progress": 0.877
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:14Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194557062,
+                "bytes": 1694450880,
+                "elapsed": 8871,
+                "progress": 0.887
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:14Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194557516,
+                "bytes": 1713065760,
+                "elapsed": 8973,
+                "progress": 0.897
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:14Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194567147,
+                "bytes": 1732181408,
+                "elapsed": 9075,
+                "progress": 0.908
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:14Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194589760,
+                "bytes": 1752405856,
+                "elapsed": 9176,
+                "progress": 0.918
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:14Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194587996,
+                "bytes": 1770088320,
+                "elapsed": 9278,
+                "progress": 0.928
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:15Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194617672,
+                "bytes": 1791212768,
+                "elapsed": 9380,
+                "progress": 0.938
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:15Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194634673,
+                "bytes": 1810946880,
+                "elapsed": 9482,
+                "progress": 0.948
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:15Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194657428,
+                "bytes": 1831878016,
+                "elapsed": 9584,
+                "progress": 0.958
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:15Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194672130,
+                "bytes": 1851896160,
+                "elapsed": 9688,
+                "progress": 0.969
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:15Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194687307,
+                "bytes": 1871691840,
+                "elapsed": 9791,
+                "progress": 0.979
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:15Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194699786,
+                "bytes": 1889196480,
+                "elapsed": 9892,
+                "progress": 0.989
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:15Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194717413,
+                "bytes": 1907035200,
+                "elapsed": 9994,
+                "progress": 0.999
+            }
+        },
+        {
+            "type": "download",
+            "timestamp": "2024-12-25T04:02:15Z",
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753
+                    },
+                    {
+                        "id": 51046
+                    },
+                    {
+                        "id": 52346
+                    },
+                    {
+                        "id": 53393
+                    }
+                ],
+                "bandwidth": 194718407,
+                "bytes": 1910793600,
+                "elapsed": 10004,
+                "progress": 1
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:15Z",
+            "upload": {
+                "bandwidth": 61478800,
+                "bytes": 4918304,
+                "elapsed": 80,
+                "progress": 0.009
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:15Z",
+            "upload": {
+                "bandwidth": 69268429,
+                "bytes": 12260512,
+                "elapsed": 177,
+                "progress": 0.019
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:15Z",
+            "upload": {
+                "bandwidth": 74630532,
+                "bytes": 21568224,
+                "elapsed": 289,
+                "progress": 0.029
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:16Z",
+            "upload": {
+                "bandwidth": 76339564,
+                "bytes": 29467072,
+                "elapsed": 386,
+                "progress": 0.039
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:16Z",
+            "upload": {
+                "bandwidth": 80921029,
+                "bytes": 39003936,
+                "elapsed": 482,
+                "progress": 0.05
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:16Z",
+            "upload": {
+                "bandwidth": 85530944,
+                "bytes": 50890912,
+                "elapsed": 595,
+                "progress": 0.06
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:16Z",
+            "upload": {
+                "bandwidth": 86191722,
+                "bytes": 59644672,
+                "elapsed": 692,
+                "progress": 0.07
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:16Z",
+            "upload": {
+                "bandwidth": 87355322,
+                "bytes": 68835994,
+                "elapsed": 788,
+                "progress": 0.08
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:16Z",
+            "upload": {
+                "bandwidth": 89353582,
+                "bytes": 80507578,
+                "elapsed": 901,
+                "progress": 0.09
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:16Z",
+            "upload": {
+                "bandwidth": 88512442,
+                "bytes": 88335418,
+                "elapsed": 998,
+                "progress": 0.1
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:16Z",
+            "upload": {
+                "bandwidth": 90150341,
+                "bytes": 98624474,
+                "elapsed": 1094,
+                "progress": 0.111
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:16Z",
+            "upload": {
+                "bandwidth": 90781131,
+                "bytes": 109572826,
+                "elapsed": 1207,
+                "progress": 0.121
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:17Z",
+            "upload": {
+                "bandwidth": 90484437,
+                "bytes": 117991706,
+                "elapsed": 1304,
+                "progress": 0.131
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:17Z",
+            "upload": {
+                "bandwidth": 90942375,
+                "bytes": 127319326,
+                "elapsed": 1400,
+                "progress": 0.141
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:17Z",
+            "upload": {
+                "bandwidth": 91664928,
+                "bytes": 137222398,
+                "elapsed": 1497,
+                "progress": 0.151
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:17Z",
+            "upload": {
+                "bandwidth": 91335324,
+                "bytes": 146611733,
+                "elapsed": 1610,
+                "progress": 0.162
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:17Z",
+            "upload": {
+                "bandwidth": 90051083,
+                "bytes": 154190453,
+                "elapsed": 1706,
+                "progress": 0.172
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:17Z",
+            "upload": {
+                "bandwidth": 88761857,
+                "bytes": 161574773,
+                "elapsed": 1803,
+                "progress": 0.182
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:17Z",
+            "upload": {
+                "bandwidth": 88280431,
+                "bytes": 171037013,
+                "elapsed": 1916,
+                "progress": 0.192
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:17Z",
+            "upload": {
+                "bandwidth": 88242542,
+                "bytes": 179466773,
+                "elapsed": 2012,
+                "progress": 0.202
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:17Z",
+            "upload": {
+                "bandwidth": 87920494,
+                "bytes": 187601666,
+                "elapsed": 2109,
+                "progress": 0.212
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:17Z",
+            "upload": {
+                "bandwidth": 87688831,
+                "bytes": 197220866,
+                "elapsed": 2222,
+                "progress": 0.223
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:18Z",
+            "upload": {
+                "bandwidth": 87868608,
+                "bytes": 205941764,
+                "elapsed": 2318,
+                "progress": 0.233
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:18Z",
+            "upload": {
+                "bandwidth": 87628580,
+                "bytes": 214102244,
+                "elapsed": 2415,
+                "progress": 0.243
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:18Z",
+            "upload": {
+                "bandwidth": 87516205,
+                "bytes": 223849604,
+                "elapsed": 2528,
+                "progress": 0.253
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:18Z",
+            "upload": {
+                "bandwidth": 87566646,
+                "bytes": 232381604,
+                "elapsed": 2624,
+                "progress": 0.264
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:18Z",
+            "upload": {
+                "bandwidth": 87314401,
+                "bytes": 240437228,
+                "elapsed": 2721,
+                "progress": 0.274
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:18Z",
+            "upload": {
+                "bandwidth": 87247432,
+                "bytes": 250224428,
+                "elapsed": 2834,
+                "progress": 0.284
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:18Z",
+            "upload": {
+                "bandwidth": 86974470,
+                "bytes": 258168908,
+                "elapsed": 2931,
+                "progress": 0.294
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:18Z",
+            "upload": {
+                "bandwidth": 86168661,
+                "bytes": 264833228,
+                "elapsed": 3027,
+                "progress": 0.304
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:18Z",
+            "upload": {
+                "bandwidth": 85688677,
+                "bytes": 273566828,
+                "elapsed": 3140,
+                "progress": 0.314
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:18Z",
+            "upload": {
+                "bandwidth": 85817407,
+                "bytes": 282257228,
+                "elapsed": 3237,
+                "progress": 0.325
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:19Z",
+            "upload": {
+                "bandwidth": 85189257,
+                "bytes": 288491723,
+                "elapsed": 3333,
+                "progress": 0.335
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:19Z",
+            "upload": {
+                "bandwidth": 84794803,
+                "bytes": 296656523,
+                "elapsed": 3446,
+                "progress": 0.345
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:19Z",
+            "upload": {
+                "bandwidth": 84729216,
+                "bytes": 304542221,
+                "elapsed": 3542,
+                "progress": 0.355
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:19Z",
+            "upload": {
+                "bandwidth": 84446605,
+                "bytes": 311572301,
+                "elapsed": 3639,
+                "progress": 0.365
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:19Z",
+            "upload": {
+                "bandwidth": 84466822,
+                "bytes": 321165581,
+                "elapsed": 3752,
+                "progress": 0.376
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:19Z",
+            "upload": {
+                "bandwidth": 84508746,
+                "bytes": 329514701,
+                "elapsed": 3849,
+                "progress": 0.386
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:19Z",
+            "upload": {
+                "bandwidth": 84349440,
+                "bytes": 336818653,
+                "elapsed": 3945,
+                "progress": 0.396
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:19Z",
+            "upload": {
+                "bandwidth": 84168588,
+                "bytes": 346920413,
+                "elapsed": 4058,
+                "progress": 0.406
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:19Z",
+            "upload": {
+                "bandwidth": 83999790,
+                "bytes": 354199613,
+                "elapsed": 4155,
+                "progress": 0.416
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:19Z",
+            "upload": {
+                "bandwidth": 84138750,
+                "bytes": 363016733,
+                "elapsed": 4251,
+                "progress": 0.426
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:20Z",
+            "upload": {
+                "bandwidth": 84457505,
+                "bytes": 374369693,
+                "elapsed": 4364,
+                "progress": 0.437
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:20Z",
+            "upload": {
+                "bandwidth": 84265606,
+                "bytes": 381437213,
+                "elapsed": 4461,
+                "progress": 0.447
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:20Z",
+            "upload": {
+                "bandwidth": 83768156,
+                "bytes": 387288296,
+                "elapsed": 4557,
+                "progress": 0.457
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:20Z",
+            "upload": {
+                "bandwidth": 83753076,
+                "bytes": 396622376,
+                "elapsed": 4670,
+                "progress": 0.467
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:20Z",
+            "upload": {
+                "bandwidth": 83768640,
+                "bytes": 404814536,
+                "elapsed": 4767,
+                "progress": 0.477
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:20Z",
+            "upload": {
+                "bandwidth": 84005167,
+                "bytes": 414508614,
+                "elapsed": 4863,
+                "progress": 0.488
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:20Z",
+            "upload": {
+                "bandwidth": 84339917,
+                "bytes": 426509574,
+                "elapsed": 4976,
+                "progress": 0.498
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:20Z",
+            "upload": {
+                "bandwidth": 84990174,
+                "bytes": 434497254,
+                "elapsed": 5073,
+                "progress": 0.508
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:20Z",
+            "upload": {
+                "bandwidth": 85128669,
+                "bytes": 443555127,
+                "elapsed": 5169,
+                "progress": 0.518
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:20Z",
+            "upload": {
+                "bandwidth": 85232577,
+                "bytes": 452488887,
+                "elapsed": 5266,
+                "progress": 0.528
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:21Z",
+            "upload": {
+                "bandwidth": 85508556,
+                "bytes": 464381847,
+                "elapsed": 5379,
+                "progress": 0.538
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:21Z",
+            "upload": {
+                "bandwidth": 85573659,
+                "bytes": 473166745,
+                "elapsed": 5476,
+                "progress": 0.549
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:21Z",
+            "upload": {
+                "bandwidth": 86271878,
+                "bytes": 482479225,
+                "elapsed": 5572,
+                "progress": 0.559
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:21Z",
+            "upload": {
+                "bandwidth": 86358001,
+                "bytes": 492849726,
+                "elapsed": 5685,
+                "progress": 0.569
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:21Z",
+            "upload": {
+                "bandwidth": 86492231,
+                "bytes": 502466046,
+                "elapsed": 5782,
+                "progress": 0.579
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:21Z",
+            "upload": {
+                "bandwidth": 86613065,
+                "bytes": 511964126,
+                "elapsed": 5878,
+                "progress": 0.589
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:21Z",
+            "upload": {
+                "bandwidth": 86527287,
+                "bytes": 520568126,
+                "elapsed": 5991,
+                "progress": 0.6
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:21Z",
+            "upload": {
+                "bandwidth": 86887141,
+                "bytes": 527925086,
+                "elapsed": 6088,
+                "progress": 0.61
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:21Z",
+            "upload": {
+                "bandwidth": 86867636,
+                "bytes": 535656867,
+                "elapsed": 6184,
+                "progress": 0.62
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:21Z",
+            "upload": {
+                "bandwidth": 86900866,
+                "bytes": 545471907,
+                "elapsed": 6297,
+                "progress": 0.63
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:22Z",
+            "upload": {
+                "bandwidth": 87078917,
+                "bytes": 556060227,
+                "elapsed": 6394,
+                "progress": 0.64
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:22Z",
+            "upload": {
+                "bandwidth": 87118975,
+                "bytes": 564700498,
+                "elapsed": 6490,
+                "progress": 0.65
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:22Z",
+            "upload": {
+                "bandwidth": 87719460,
+                "bytes": 574902418,
+                "elapsed": 6603,
+                "progress": 0.661
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:22Z",
+            "upload": {
+                "bandwidth": 87821342,
+                "bytes": 584517298,
+                "elapsed": 6699,
+                "progress": 0.671
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:22Z",
+            "upload": {
+                "bandwidth": 87842853,
+                "bytes": 592942048,
+                "elapsed": 6796,
+                "progress": 0.681
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:22Z",
+            "upload": {
+                "bandwidth": 87805027,
+                "bytes": 601518688,
+                "elapsed": 6908,
+                "progress": 0.691
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:22Z",
+            "upload": {
+                "bandwidth": 87906246,
+                "bytes": 610448128,
+                "elapsed": 7005,
+                "progress": 0.701
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:22Z",
+            "upload": {
+                "bandwidth": 88000565,
+                "bytes": 620235808,
+                "elapsed": 7101,
+                "progress": 0.712
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:22Z",
+            "upload": {
+                "bandwidth": 88122400,
+                "bytes": 632103109,
+                "elapsed": 7213,
+                "progress": 0.722
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:23Z",
+            "upload": {
+                "bandwidth": 88185173,
+                "bytes": 641624389,
+                "elapsed": 7310,
+                "progress": 0.732
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:23Z",
+            "upload": {
+                "bandwidth": 88227933,
+                "bytes": 650699538,
+                "elapsed": 7406,
+                "progress": 0.742
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:23Z",
+            "upload": {
+                "bandwidth": 88856565,
+                "bytes": 660199218,
+                "elapsed": 7519,
+                "progress": 0.752
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:23Z",
+            "upload": {
+                "bandwidth": 88934261,
+                "bytes": 670104978,
+                "elapsed": 7615,
+                "progress": 0.763
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:23Z",
+            "upload": {
+                "bandwidth": 88956393,
+                "bytes": 678690258,
+                "elapsed": 7712,
+                "progress": 0.773
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:23Z",
+            "upload": {
+                "bandwidth": 89039843,
+                "bytes": 690378738,
+                "elapsed": 7824,
+                "progress": 0.783
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:23Z",
+            "upload": {
+                "bandwidth": 89020950,
+                "bytes": 697776286,
+                "elapsed": 7921,
+                "progress": 0.793
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:23Z",
+            "upload": {
+                "bandwidth": 89763017,
+                "bytes": 706134046,
+                "elapsed": 8017,
+                "progress": 0.803
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:23Z",
+            "upload": {
+                "bandwidth": 89843886,
+                "bytes": 717819646,
+                "elapsed": 8129,
+                "progress": 0.813
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:23Z",
+            "upload": {
+                "bandwidth": 89875030,
+                "bytes": 726644229,
+                "elapsed": 8226,
+                "progress": 0.824
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:24Z",
+            "upload": {
+                "bandwidth": 89876023,
+                "bytes": 735387909,
+                "elapsed": 8338,
+                "progress": 0.834
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:24Z",
+            "upload": {
+                "bandwidth": 89851705,
+                "bytes": 741640389,
+                "elapsed": 8435,
+                "progress": 0.844
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:24Z",
+            "upload": {
+                "bandwidth": 89423074,
+                "bytes": 749409449,
+                "elapsed": 8531,
+                "progress": 0.854
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:24Z",
+            "upload": {
+                "bandwidth": 89446359,
+                "bytes": 758986889,
+                "elapsed": 8643,
+                "progress": 0.865
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:24Z",
+            "upload": {
+                "bandwidth": 89483414,
+                "bytes": 768256169,
+                "elapsed": 8740,
+                "progress": 0.875
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:24Z",
+            "upload": {
+                "bandwidth": 89508975,
+                "bytes": 776854409,
+                "elapsed": 8836,
+                "progress": 0.885
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:24Z",
+            "upload": {
+                "bandwidth": 89530782,
+                "bytes": 786420329,
+                "elapsed": 8949,
+                "progress": 0.895
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:24Z",
+            "upload": {
+                "bandwidth": 89493255,
+                "bytes": 794999849,
+                "elapsed": 9045,
+                "progress": 0.905
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:24Z",
+            "upload": {
+                "bandwidth": 89515281,
+                "bytes": 803425560,
+                "elapsed": 9141,
+                "progress": 0.916
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:24Z",
+            "upload": {
+                "bandwidth": 89528740,
+                "bytes": 812009675,
+                "elapsed": 9254,
+                "progress": 0.926
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:25Z",
+            "upload": {
+                "bandwidth": 89549745,
+                "bytes": 820113995,
+                "elapsed": 9350,
+                "progress": 0.936
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:25Z",
+            "upload": {
+                "bandwidth": 89578713,
+                "bytes": 829351595,
+                "elapsed": 9447,
+                "progress": 0.946
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:25Z",
+            "upload": {
+                "bandwidth": 89893951,
+                "bytes": 840206592,
+                "elapsed": 9559,
+                "progress": 0.956
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:25Z",
+            "upload": {
+                "bandwidth": 89927437,
+                "bytes": 850900512,
+                "elapsed": 9656,
+                "progress": 0.966
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:25Z",
+            "upload": {
+                "bandwidth": 89947848,
+                "bytes": 858868032,
+                "elapsed": 9752,
+                "progress": 0.977
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:25Z",
+            "upload": {
+                "bandwidth": 89973553,
+                "bytes": 868531872,
+                "elapsed": 9864,
+                "progress": 0.987
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:25Z",
+            "upload": {
+                "bandwidth": 89996262,
+                "bytes": 877163232,
+                "elapsed": 9961,
+                "progress": 0.997
+            }
+        },
+        {
+            "type": "upload",
+            "timestamp": "2024-12-25T04:02:25Z",
+            "upload": {
+                "bandwidth": 90003708,
+                "bytes": 880211712,
+                "elapsed": 9993,
+                "progress": 1
+            }
+        }
+    ]
+}

@@ -24,6 +24,13 @@ def mock_get_speedtest_result():
             m.return_value = file.read()
         yield m
 
+@pytest.fixture()
+def mock_get_incomplete_speedtest_result():
+    with patch.object(AsusWrtHttp, '_AsusWrtHttp__send_req') as m:
+        with open('tests/fixtures/ookla_speedtest_get_incomplete_result.json', 'r') as file:
+            m.return_value = file.read()
+        yield m
+
 @pytest.mark.asyncio
 async def test_get_speedtest_history(speedtest_client, mock_get_speedtest_history):
     data = await speedtest_client.asus_get_speedtest_history()
@@ -45,7 +52,14 @@ async def test_get_speedtest_result(speedtest_client, mock_get_speedtest_result)
 
 @pytest.mark.asyncio
 async def test_wait_and_return_speedtest_result(speedtest_client, mock_get_speedtest_result):
-    data = await speedtest_client.wait_and_return_speedtest_result(timeout=10, poll_frequency=3)
+    data = await speedtest_client.wait_and_return_speedtest_result(timeout=5, poll_frequency=2)
     assert isinstance(data, dict)
     assert data['type'] == 'result'
     assert data['result']['persisted'] == True
+
+@pytest.mark.asyncio
+async def test_wait_and_return_on_incomplete_speedtest_result(speedtest_client, mock_get_incomplete_speedtest_result):
+    with pytest.raises(Exception) as excinfo:
+        data = await speedtest_client.wait_and_return_speedtest_result(timeout=5, poll_frequency=2)
+    assert str(excinfo.value) == "Speedtest did not complete within 5 seconds"
+    
