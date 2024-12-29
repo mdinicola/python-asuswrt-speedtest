@@ -11,6 +11,7 @@ logger = logging.getLogger(__name__)
 config = configparser.ConfigParser()
 config.read('config/config.ini')
 
+
 async def run_speedtest():
     async with SpeedTest(config) as speedtest:
         await speedtest.run()
