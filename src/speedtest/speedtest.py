@@ -54,8 +54,11 @@ class SpeedTest:
             time.sleep(poll_frequency)
             count += poll_frequency
             results = await self.asus_get_speedtest_result()
-            if len(results > 0):
-                latest_result = results[-1]
+            if len(results) > 1:
+                x = -1
+                if len(results[x]) == 0:
+                    x = -2
+                latest_result = results[x]
                 if latest_result['type'] == "result":
                     return latest_result
         raise Exception(f'Speedtest did not complete within {timeout} seconds')
