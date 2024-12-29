@@ -1,0 +1,1313 @@
+{
+    "ookla_speedtest_get_history": [
+        {
+            "type": "result",
+            "timestamp": "2024-12-25T04:02:25Z",
+            "ping": {
+                "jitter": 0.274,
+                "latency": 1.609,
+                "low": 1.435,
+                "high": 2.027
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753,
+                        "host": "tor11speedtest01.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 51046,
+                        "host": "stetobicoke.netcrawler.ca",
+                        "port": 8080,
+                        "name": "Netcrawler.ca Internet",
+                        "location": "Etobicoke, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 52346,
+                        "host": "mobilityooklanorthyork.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "York, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 53393,
+                        "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 194718407,
+                "bytes": 1910793600,
+                "elapsed": 10004
+            },
+            "upload": {
+                "bandwidth": 90003708,
+                "bytes": 880211712,
+                "elapsed": 9993
+            },
+            "packetLoss": 0,
+            "isp": "Bell Canada",
+            "interface": {
+                "internalIp": "142.126.86.207",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "142.126.86.207"
+            },
+            "server": {
+                "id": 16753,
+                "host": "tor11speedtest01.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Mobility",
+                "location": "Toronto, ON",
+                "country": "Canada",
+                "ip": "209.71.215.2"
+            },
+            "result": {
+                "id": "33e40e57-4ad2-4ea4-8a24-db562f09a65a",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-12-24T17:35:56Z",
+            "ping": {
+                "jitter": 0.253,
+                "latency": 1.754,
+                "low": 1.432,
+                "high": 1.948
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753,
+                        "host": "tor11speedtest01.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 17394,
+                        "host": "wirelinespeedtestmarkham.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Markham, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 52346,
+                        "host": "mobilityooklanorthyork.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "York, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 53393,
+                        "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 197981442,
+                "bytes": 1941822368,
+                "elapsed": 10002
+            },
+            "upload": {
+                "bandwidth": 89932349,
+                "bytes": 857943111,
+                "elapsed": 10002
+            },
+            "packetLoss": 0,
+            "isp": "Bell Canada",
+            "interface": {
+                "internalIp": "142.126.86.207",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "142.126.86.207"
+            },
+            "server": {
+                "id": 53393,
+                "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Canada",
+                "location": "Toronto, ON",
+                "country": "Canada",
+                "ip": "184.150.62.135"
+            },
+            "result": {
+                "id": "85591e0b-4814-4be7-b99c-dc44c78a76ec",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-12-24T16:41:27Z",
+            "ping": {
+                "jitter": 0.145,
+                "latency": 2.593,
+                "low": 2.128,
+                "high": 2.709
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 17394,
+                        "host": "wirelinespeedtestmarkham.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Markham, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 46763,
+                        "host": "stoakville.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Oakville, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 52346,
+                        "host": "mobilityooklanorthyork.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "York, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 53393,
+                        "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 190750188,
+                "bytes": 1880656928,
+                "elapsed": 10001
+            },
+            "upload": {
+                "bandwidth": 77785032,
+                "bytes": 757172551,
+                "elapsed": 9987
+            },
+            "packetLoss": 0,
+            "isp": "Bell Canada",
+            "interface": {
+                "internalIp": "142.126.86.207",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "142.126.86.207"
+            },
+            "server": {
+                "id": 52346,
+                "host": "mobilityooklanorthyork.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Mobility",
+                "location": "York, ON",
+                "country": "Canada",
+                "ip": "209.71.215.51"
+            },
+            "result": {
+                "id": "3002cdd3-f0bd-4995-9e1b-8d8e82e1b1d9",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-12-24T07:38:26Z",
+            "ping": {
+                "jitter": 1.004,
+                "latency": 1.954,
+                "low": 1.43,
+                "high": 3.143
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753,
+                        "host": "tor11speedtest01.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 46763,
+                        "host": "stoakville.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Oakville, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 48976,
+                        "host": "stmississauga.netcrawler.ca",
+                        "port": 8080,
+                        "name": "Netcrawler.ca Internet",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 53393,
+                        "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 194515264,
+                "bytes": 1917653760,
+                "elapsed": 10001
+            },
+            "upload": {
+                "bandwidth": 96405539,
+                "bytes": 951710933,
+                "elapsed": 9995
+            },
+            "packetLoss": 0,
+            "isp": "Bell Canada",
+            "interface": {
+                "internalIp": "142.126.86.207",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "142.126.86.207"
+            },
+            "server": {
+                "id": 53393,
+                "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Canada",
+                "location": "Toronto, ON",
+                "country": "Canada",
+                "ip": "184.150.62.135"
+            },
+            "result": {
+                "id": "925fc730-e041-4219-b8c8-1b6bce5c9737",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-12-24T03:55:48Z",
+            "ping": {
+                "jitter": 0.222,
+                "latency": 1.725,
+                "low": 1.578,
+                "high": 2.425
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 46144,
+                        "host": "stetobicoke.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Etobicoke, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 46763,
+                        "host": "stoakville.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Oakville, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 52346,
+                        "host": "mobilityooklanorthyork.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "York, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 53393,
+                        "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 198186791,
+                "bytes": 1960426816,
+                "elapsed": 10001
+            },
+            "upload": {
+                "bandwidth": 104426033,
+                "bytes": 1007139723,
+                "elapsed": 9997
+            },
+            "packetLoss": 0,
+            "isp": "Bell Canada",
+            "interface": {
+                "internalIp": "142.126.86.207",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "142.126.86.207"
+            },
+            "server": {
+                "id": 53393,
+                "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Canada",
+                "location": "Toronto, ON",
+                "country": "Canada",
+                "ip": "184.150.62.135"
+            },
+            "result": {
+                "id": "9684a15b-d896-489b-8c1b-d24fadaa2309",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-12-24T02:59:32Z",
+            "ping": {
+                "jitter": 0.467,
+                "latency": 1.921,
+                "low": 1.54,
+                "high": 2.499
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753,
+                        "host": "tor11speedtest01.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 46763,
+                        "host": "stoakville.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Oakville, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 53393,
+                        "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 56780,
+                        "host": "wirelinespeedtestmississauga.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 186854882,
+                "bytes": 1849547904,
+                "elapsed": 10005
+            },
+            "upload": {
+                "bandwidth": 99350052,
+                "bytes": 965683279,
+                "elapsed": 9989
+            },
+            "packetLoss": 0,
+            "isp": "Bell Canada",
+            "interface": {
+                "internalIp": "142.114.158.69",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "142.114.158.69"
+            },
+            "server": {
+                "id": 53393,
+                "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Canada",
+                "location": "Toronto, ON",
+                "country": "Canada",
+                "ip": "184.150.62.135"
+            },
+            "result": {
+                "id": "9550982b-10a5-46f8-b5f1-3bc6b4f5968c",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-12-23T22:58:28Z",
+            "ping": {
+                "jitter": 0.171,
+                "latency": 1.72,
+                "low": 1.538,
+                "high": 2.021
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753,
+                        "host": "tor11speedtest01.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 46143,
+                        "host": "sttoronto.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 52346,
+                        "host": "mobilityooklanorthyork.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "York, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 53393,
+                        "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 186449273,
+                "bytes": 1846563776,
+                "elapsed": 10007
+            },
+            "upload": {
+                "bandwidth": 106661033,
+                "bytes": 1019451919,
+                "elapsed": 10011
+            },
+            "packetLoss": 0,
+            "isp": "Bell Canada",
+            "interface": {
+                "internalIp": "142.114.158.69",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "142.114.158.69"
+            },
+            "server": {
+                "id": 53393,
+                "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Canada",
+                "location": "Toronto, ON",
+                "country": "Canada",
+                "ip": "184.150.62.135"
+            },
+            "result": {
+                "id": "16329cfb-e2d6-40af-8e8e-7acb9f21fbb8",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-12-23T20:42:59Z",
+            "ping": {
+                "jitter": 0.331,
+                "latency": 2.381,
+                "low": 1.668,
+                "high": 2.645
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753,
+                        "host": "tor11speedtest01.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 48976,
+                        "host": "stmississauga.netcrawler.ca",
+                        "port": 8080,
+                        "name": "Netcrawler.ca Internet",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 52346,
+                        "host": "mobilityooklanorthyork.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "York, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 53393,
+                        "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 116724887,
+                "bytes": 1162353600,
+                "elapsed": 10002
+            },
+            "upload": {
+                "bandwidth": 108844375,
+                "bytes": 1018606653,
+                "elapsed": 9992
+            },
+            "packetLoss": 0,
+            "isp": "Bell Canada",
+            "interface": {
+                "internalIp": "184.144.24.118",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "184.144.24.118"
+            },
+            "server": {
+                "id": 53393,
+                "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Canada",
+                "location": "Toronto, ON",
+                "country": "Canada",
+                "ip": "184.150.62.135"
+            },
+            "result": {
+                "id": "a639ba9c-ce75-4c3c-ba1e-4f2cd42ef775",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-12-23T18:31:34Z",
+            "ping": {
+                "jitter": 0.383,
+                "latency": 2.022,
+                "low": 1.629,
+                "high": 2.348
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753,
+                        "host": "tor11speedtest01.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 46763,
+                        "host": "stoakville.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Oakville, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 53393,
+                        "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 56780,
+                        "host": "wirelinespeedtestmississauga.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 116377145,
+                "bytes": 1154227328,
+                "elapsed": 10002
+            },
+            "upload": {
+                "bandwidth": 94645664,
+                "bytes": 915225418,
+                "elapsed": 10007
+            },
+            "packetLoss": 0,
+            "isp": "Bell Canada",
+            "interface": {
+                "internalIp": "142.126.86.53",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "142.126.86.53"
+            },
+            "server": {
+                "id": 53393,
+                "host": "wirelinespeedtesttoronto.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Canada",
+                "location": "Toronto, ON",
+                "country": "Canada",
+                "ip": "184.150.62.135"
+            },
+            "result": {
+                "id": "cb5eb89e-f330-46f4-bcfe-db2c5997bf13",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-11-10T17:02:09Z",
+            "ping": {
+                "jitter": 0.367,
+                "latency": 3.975,
+                "low": 3.446,
+                "high": 4.504
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 46147,
+                        "host": "stmississauga.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 46763,
+                        "host": "stoakville.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Oakville, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 51046,
+                        "host": "stetobicoke.netcrawler.ca",
+                        "port": 8080,
+                        "name": "Netcrawler.ca Internet",
+                        "location": "Etobicoke, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 56780,
+                        "host": "wirelinespeedtestmississauga.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 52505659,
+                "bytes": 529719840,
+                "elapsed": 10001
+            },
+            "upload": {
+                "bandwidth": 61422445,
+                "bytes": 594007703,
+                "elapsed": 10014
+            },
+            "packetLoss": 0,
+            "isp": "Coextro",
+            "interface": {
+                "internalIp": "149.248.175.37",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "149.248.175.37"
+            },
+            "server": {
+                "id": 46763,
+                "host": "stoakville.rogers.com",
+                "port": 8080,
+                "name": "Rogers",
+                "location": "Oakville, ON",
+                "country": "Canada",
+                "ip": "72.136.172.190"
+            },
+            "result": {
+                "id": "6359dbb7-1621-492e-878e-8009e554f8d8",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-11-10T16:54:25Z",
+            "ping": {
+                "jitter": 62.436,
+                "latency": 36.006,
+                "low": 32.362,
+                "high": 282.108
+            },
+            "download": {
+                "bandwidth": 2666456,
+                "bytes": 26900864,
+                "elapsed": 10011
+            },
+            "upload": {
+                "bandwidth": 31521261,
+                "bytes": 281050497,
+                "elapsed": 9978
+            },
+            "packetLoss": 0,
+            "isp": "Coextro",
+            "interface": {
+                "internalIp": "149.248.175.37",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "149.248.175.37"
+            },
+            "server": {
+                "id": 46147,
+                "host": "stmississauga.rogers.com",
+                "port": 8080,
+                "name": "Rogers",
+                "location": "Mississauga, ON",
+                "country": "Canada",
+                "ip": "72.136.172.154"
+            },
+            "result": {
+                "id": "64632c24-ff1d-4850-9c5d-4c3de2e9b71d",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-10-21T14:09:00Z",
+            "ping": {
+                "jitter": 0.508,
+                "latency": 4.13,
+                "low": 3.769,
+                "high": 4.671
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 46147,
+                        "host": "stmississauga.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 46763,
+                        "host": "stoakville.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Oakville, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 48976,
+                        "host": "stmississauga.netcrawler.ca",
+                        "port": 8080,
+                        "name": "Netcrawler.ca Internet",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 51046,
+                        "host": "stetobicoke.netcrawler.ca",
+                        "port": 8080,
+                        "name": "Netcrawler.ca Internet",
+                        "location": "Etobicoke, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 58923415,
+                "bytes": 560624768,
+                "elapsed": 10006
+            },
+            "upload": {
+                "bandwidth": 51825564,
+                "bytes": 476344360,
+                "elapsed": 10006
+            },
+            "packetLoss": 0,
+            "isp": "Coextro",
+            "interface": {
+                "internalIp": "149.248.175.31",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "149.248.175.31"
+            },
+            "server": {
+                "id": 51046,
+                "host": "stetobicoke.netcrawler.ca",
+                "port": 8080,
+                "name": "Netcrawler.ca Internet",
+                "location": "Etobicoke, ON",
+                "country": "Canada",
+                "ip": "38.45.15.236"
+            },
+            "result": {
+                "id": "8a901b17-9f88-4b52-9d19-680ca6007498",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-10-15T23:57:37Z",
+            "ping": {
+                "jitter": 1.659,
+                "latency": 4.185,
+                "low": 3.46,
+                "high": 9.91
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 16753,
+                        "host": "tor11speedtest01.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "Toronto, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 46144,
+                        "host": "stetobicoke.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Etobicoke, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 46763,
+                        "host": "stoakville.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Oakville, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 56780,
+                        "host": "wirelinespeedtestmississauga.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 46728002,
+                "bytes": 460154624,
+                "elapsed": 10006
+            },
+            "upload": {
+                "bandwidth": 51390379,
+                "bytes": 422689312,
+                "elapsed": 9998
+            },
+            "packetLoss": 0,
+            "isp": "Coextro",
+            "interface": {
+                "internalIp": "149.248.175.31",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "149.248.175.31"
+            },
+            "server": {
+                "id": 46763,
+                "host": "stoakville.rogers.com",
+                "port": 8080,
+                "name": "Rogers",
+                "location": "Oakville, ON",
+                "country": "Canada",
+                "ip": "72.136.172.190"
+            },
+            "result": {
+                "id": "d7f876de-047a-46ab-80da-0333de45eb4d",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-10-06T22:13:06Z",
+            "ping": {
+                "jitter": 0.275,
+                "latency": 4.393,
+                "low": 4.203,
+                "high": 4.655
+            },
+            "download": {
+                "bandwidth": 58236405,
+                "bytes": 521416800,
+                "elapsed": 10005
+            },
+            "upload": {
+                "bandwidth": 49619274,
+                "bytes": 472061404,
+                "elapsed": 9999
+            },
+            "packetLoss": 0,
+            "isp": "Coextro",
+            "interface": {
+                "internalIp": "162.218.124.123",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "162.218.124.123"
+            },
+            "server": {
+                "id": 56780,
+                "host": "wirelinespeedtestmississauga.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Canada",
+                "location": "Mississauga, ON",
+                "country": "Canada",
+                "ip": "184.150.62.141"
+            },
+            "result": {
+                "id": "947f6692-5ef2-43c7-b2f0-472cd5d0a570",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-10-06T21:39:37Z",
+            "ping": {
+                "jitter": 1.401,
+                "latency": 4.626,
+                "low": 3.387,
+                "high": 5.794
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 46763,
+                        "host": "stoakville.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Oakville, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 48976,
+                        "host": "stmississauga.netcrawler.ca",
+                        "port": 8080,
+                        "name": "Netcrawler.ca Internet",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 51046,
+                        "host": "stetobicoke.netcrawler.ca",
+                        "port": 8080,
+                        "name": "Netcrawler.ca Internet",
+                        "location": "Etobicoke, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 52346,
+                        "host": "mobilityooklanorthyork.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "York, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 41574236,
+                "bytes": 367499520,
+                "elapsed": 10002
+            },
+            "upload": {
+                "bandwidth": 36629555,
+                "bytes": 342558523,
+                "elapsed": 10006
+            },
+            "packetLoss": 0,
+            "isp": "Coextro",
+            "interface": {
+                "internalIp": "162.218.124.123",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "162.218.124.123"
+            },
+            "server": {
+                "id": 51046,
+                "host": "stetobicoke.netcrawler.ca",
+                "port": 8080,
+                "name": "Netcrawler.ca Internet",
+                "location": "Etobicoke, ON",
+                "country": "Canada",
+                "ip": "38.45.15.236"
+            },
+            "result": {
+                "id": "0b3a9180-aef2-4727-8c9e-23306770bea7",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-10-06T21:28:49Z",
+            "ping": {
+                "jitter": 1.258,
+                "latency": 39.621,
+                "low": 39.297,
+                "high": 41.685
+            },
+            "download": {
+                "bandwidth": 4654281,
+                "bytes": 32512544,
+                "elapsed": 10002
+            },
+            "upload": {
+                "bandwidth": 41278711,
+                "bytes": 367576233,
+                "elapsed": 9982
+            },
+            "packetLoss": 0,
+            "isp": "Coextro",
+            "interface": {
+                "internalIp": "162.218.124.123",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "162.218.124.123"
+            },
+            "server": {
+                "id": 46144,
+                "host": "stetobicoke.rogers.com",
+                "port": 8080,
+                "name": "Rogers",
+                "location": "Etobicoke, ON",
+                "country": "Canada",
+                "ip": "72.136.172.154"
+            },
+            "result": {
+                "id": "ef7eee26-4fdc-4fb5-a29e-6fe0e0918307",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-10-01T13:32:49Z",
+            "ping": {
+                "jitter": 1.167,
+                "latency": 4.672,
+                "low": 3.452,
+                "high": 5.787
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 46144,
+                        "host": "stetobicoke.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Etobicoke, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 46763,
+                        "host": "stoakville.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Oakville, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 48976,
+                        "host": "stmississauga.netcrawler.ca",
+                        "port": 8080,
+                        "name": "Netcrawler.ca Internet",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 56780,
+                        "host": "wirelinespeedtestmississauga.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Canada",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 60937104,
+                "bytes": 605792640,
+                "elapsed": 10004
+            },
+            "upload": {
+                "bandwidth": 59829713,
+                "bytes": 577307744,
+                "elapsed": 9993
+            },
+            "packetLoss": 0,
+            "isp": "Coextro",
+            "interface": {
+                "internalIp": "162.218.124.123",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "162.218.124.123"
+            },
+            "server": {
+                "id": 56780,
+                "host": "wirelinespeedtestmississauga.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Canada",
+                "location": "Mississauga, ON",
+                "country": "Canada",
+                "ip": "184.150.62.141"
+            },
+            "result": {
+                "id": "d0686129-f826-4c9a-aac2-d3086c802c7b",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-10-01T03:45:04Z",
+            "ping": {
+                "jitter": 0.56,
+                "latency": 4.516,
+                "low": 4.046,
+                "high": 5.174
+            },
+            "download": {
+                "bandwidth": 51498524,
+                "bytes": 509349952,
+                "elapsed": 10000
+            },
+            "upload": {
+                "bandwidth": 48553397,
+                "bytes": 462697324,
+                "elapsed": 9992
+            },
+            "packetLoss": 0,
+            "isp": "Coextro",
+            "interface": {
+                "internalIp": "162.218.124.123",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "162.218.124.123"
+            },
+            "server": {
+                "id": 56780,
+                "host": "wirelinespeedtestmississauga.srvr.bell.ca",
+                "port": 8080,
+                "name": "Bell Canada",
+                "location": "Mississauga, ON",
+                "country": "Canada",
+                "ip": "184.150.62.141"
+            },
+            "result": {
+                "id": "f14bfd5e-e8d8-4ee3-9578-11479bf3917f",
+                "persisted": true
+            }
+        },
+        {
+            "type": "result",
+            "timestamp": "2024-10-01T01:20:23Z",
+            "ping": {
+                "jitter": 8.77,
+                "latency": 30.141,
+                "low": 27.736,
+                "high": 45.269
+            },
+            "download": {
+                "servers": [
+                    {
+                        "id": 46144,
+                        "host": "stetobicoke.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Etobicoke, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 46147,
+                        "host": "stmississauga.rogers.com",
+                        "port": 8080,
+                        "name": "Rogers",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 48976,
+                        "host": "stmississauga.netcrawler.ca",
+                        "port": 8080,
+                        "name": "Netcrawler.ca Internet",
+                        "location": "Mississauga, ON",
+                        "country": "Canada"
+                    },
+                    {
+                        "id": 52346,
+                        "host": "mobilityooklanorthyork.srvr.bell.ca",
+                        "port": 8080,
+                        "name": "Bell Mobility",
+                        "location": "York, ON",
+                        "country": "Canada"
+                    }
+                ],
+                "bandwidth": 1124275,
+                "bytes": 11216160,
+                "elapsed": 10009
+            },
+            "upload": {
+                "bandwidth": 21421364,
+                "bytes": 197184995,
+                "elapsed": 9983
+            },
+            "packetLoss": 0,
+            "isp": "Coextro",
+            "interface": {
+                "internalIp": "162.218.124.123",
+                "name": "ppp0",
+                "macAddr": "00:00:00:00:00:00",
+                "isVpn": true,
+                "externalIp": "162.218.124.123"
+            },
+            "server": {
+                "id": 46147,
+                "host": "stmississauga.rogers.com",
+                "port": 8080,
+                "name": "Rogers",
+                "location": "Mississauga, ON",
+                "country": "Canada",
+                "ip": "72.136.172.154"
+            },
+            "result": {
+                "id": "2a964593-15b2-4524-a6c8-4b109926fa2b",
+                "persisted": true
+            }
+        },
+        {}
+    ]
+}
