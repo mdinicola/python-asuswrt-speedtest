@@ -2,14 +2,17 @@ import asyncio
 import logging
 import sys
 import configparser
-from speedtest import SpeedTest
+from src.speedtest import SpeedTest
 
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 logging.getLogger('asyncio').setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
 config = configparser.ConfigParser()
-config.read('../config/config.ini')
+config.read('config/config.ini')
 
-speedtest = SpeedTest(config)
-asyncio.run(speedtest.run())
+async def run_speedtest():
+    async with SpeedTest(config) as speedtest:
+        await speedtest.run()
+
+asyncio.run(run_speedtest())
