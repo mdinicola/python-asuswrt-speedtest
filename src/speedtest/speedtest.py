@@ -1,6 +1,7 @@
 import logging
 import time
 import json
+import urllib.parse
 from configparser import ConfigParser
 from pyasuswrt import AsusWrtHttp
 
@@ -63,13 +64,15 @@ class SpeedTest:
                     return latest_result
         raise Exception(f'Speedtest did not complete within {timeout} seconds')
 
-    def convert_history_to_payload(self):
-        pass
+    def convert_history_to_request_payload(self, history: dict):
+        payload = ""
+        for record in history:
+            if len(record) > 0:
+                payload += json.dumps(record, separators=(',', ':')) + '\n'
+        return urllib.parse.quote_plus(payload)
+
 
     async def run(self):
-        speedtest_history = self.parse_speedtest_history(
-            history=await self.asus_get_speedtest_history(),
-            limit=self._config.getint('speedtest', 'history_limit')
-        )
-
-        print(speedtest_history)
+        speedtest_history = await self.asus_get_speedtest_history()
+        payload = self.convert_history_to_payload(speedtest_history)
+        print(payload)

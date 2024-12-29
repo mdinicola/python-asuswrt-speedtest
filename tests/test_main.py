@@ -36,11 +36,17 @@ def mock_get_incomplete_speedtest_result():
         yield m
 
 
+@pytest.fixture()
+def mock_speedtest_history_payload():
+    with open('tests/fixtures/ookla_speedtest_history_payload.txt', 'r') as file:
+        yield file.read().strip()
+
+
 @pytest.mark.asyncio
 async def test_get_speedtest_history(speedtest_client, mock_get_speedtest_history):
     data = await speedtest_client.asus_get_speedtest_history()
     assert isinstance(data, list)
-    assert len(data) == 20
+    assert len(data) == 19
 
 
 @pytest.mark.asyncio
@@ -60,7 +66,7 @@ async def test_get_speedtest_result(speedtest_client, mock_get_speedtest_result)
 
 @pytest.mark.asyncio
 async def test_wait_and_return_speedtest_result(speedtest_client, mock_get_speedtest_result):
-    data = await speedtest_client.wait_and_return_speedtest_result(timeout=5, poll_frequency=2)
+    data = await speedtest_client.wait_and_return_speedtest_result(timeout=3, poll_frequency=1)
     assert isinstance(data, dict)
     assert data['type'] == 'result'
     assert data['result']['persisted'] == True
@@ -69,5 +75,13 @@ async def test_wait_and_return_speedtest_result(speedtest_client, mock_get_speed
 @pytest.mark.asyncio
 async def test_wait_and_return_on_speedtest_result_timeout(speedtest_client, mock_get_incomplete_speedtest_result):
     with pytest.raises(Exception) as excinfo:
-        await speedtest_client.wait_and_return_speedtest_result(timeout=5, poll_frequency=2)
-    assert str(excinfo.value) == "Speedtest did not complete within 5 seconds"
+        await speedtest_client.wait_and_return_speedtest_result(timeout=2, poll_frequency=1)
+    assert str(excinfo.value) == "Speedtest did not complete within 2 seconds"
+
+
+@pytest.mark.asyncio
+async def test_convert_history_to_request_payload(speedtest_client, mock_get_speedtest_history, mock_speedtest_history_payload):
+    data = await speedtest_client.asus_get_speedtest_history()
+    payload = speedtest_client.convert_history_to_request_payload(data)
+    assert isinstance(payload, str)
+    assert payload == mock_speedtest_history_payload
