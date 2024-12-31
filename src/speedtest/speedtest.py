@@ -75,8 +75,8 @@ class SpeedTest:
         data = f'speedTest_history={history}'
         await self._client._AsusWrtHttp__post(path='ookla_speedtest_write_history.cgi', command=data)
 
-    async def save_speedtest_results(self, result: dict, limit: int):
-        history = self.parse_speedtest_history(await self.asus_get_speedtest_history(), limit)
+    async def save_speedtest_results(self, result: dict, history_limit: int):
+        history = self.parse_speedtest_history(await self.asus_get_speedtest_history(), history_limit)
         history.insert(0, result)
         payload = self.convert_history_to_request_payload(history)
 
@@ -95,13 +95,27 @@ class SpeedTest:
                 'error': error
             }
 
-
     async def run(self):
-        data = list()
-        with open('tests/fixtures/ookla_speedtest_latest_result.json', 'r') as file:
-            data.append(json.load(file))
-        print(self.convert_history_to_request_payload(data))
+        timestamp = int(time.time())
 
-        #speedtest_history = await self.asus_get_speedtest_history()
-        #payload = self.convert_history_to_payload(speedtest_history)
-        #print(payload)
+        print('Setting speedtest start time')
+        await self.asus_set_speedtest_start_time(timestamp)
+        print('Setting speedtest start time...complete')
+
+        print(f'Starting speedtest at {timestamp}')
+        await self.asus_start_speedtest()
+
+        print('Waiting for speedtest to finish')
+        speedtest_result = await self.wait_and_return_speedtest_result(
+            timeout=self._config.getint('speedtest', 'timeout'),
+            poll_frequency=self._config.getint('speedtest', 'poll_frequency')
+        )
+        print('Waiting for speedtest to finish...complete')
+
+        print('Saving speedtest result')
+        save_result = await self.save_speedtest_results(
+            result=speedtest_result,
+            history_limit=self._config.getint('speedtest', 'history_limit')
+        )
+        print('Saving speedtest result...complete')
+        print(f'Save successful: {save_result['success']}')

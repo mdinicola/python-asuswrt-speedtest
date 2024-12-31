@@ -60,11 +60,13 @@ def mock_write_speedtest_result():
     with patch.object(AsusWrtHttp, '_AsusWrtHttp__post') as m:
         yield m
 
+
 @pytest.fixture()
 def mock_write_speedtest_result_failure():
     with patch.object(AsusWrtHttp, '_AsusWrtHttp__post') as m:
         m.side_effect = Exception('request failed')
         yield m
+
 
 @pytest.mark.asyncio
 async def test_get_speedtest_history(speedtest_client, mock_get_speedtest_history):
@@ -132,6 +134,7 @@ async def test_save_speedtest_results(
     assert result['success'] == True
     assert result['error'] is None
     assert result['data'] == mock_speedtest_updated_history_payload
+
 
 @pytest.mark.asyncio
 async def test_save_speedtest_results_failure(
