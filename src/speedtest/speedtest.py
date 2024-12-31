@@ -71,8 +71,37 @@ class SpeedTest:
                 payload += json.dumps(record, separators=(',', ':')) + '\n'
         return urllib.parse.quote_plus(payload)
 
+    async def asus_write_speedtest_history(self, history: str):
+        data = f'speedTest_history={history}'
+        await self._client._AsusWrtHttp__post(path='ookla_speedtest_write_history.cgi', command=data)
+
+    async def save_speedtest_results(self, result: dict, limit: int):
+        history = self.parse_speedtest_history(await self.asus_get_speedtest_history(), limit)
+        history.insert(0, result)
+        payload = self.convert_history_to_request_payload(history)
+
+        error = None
+        success = None
+        try:
+            await self.asus_write_speedtest_history(payload)
+            success = True
+        except Exception as e:
+            success = False
+            error = e
+        finally:
+            return {
+                'success': success,
+                'data': payload,
+                'error': error
+            }
+
 
     async def run(self):
-        speedtest_history = await self.asus_get_speedtest_history()
-        payload = self.convert_history_to_payload(speedtest_history)
-        print(payload)
+        data = list()
+        with open('tests/fixtures/ookla_speedtest_latest_result.json', 'r') as file:
+            data.append(json.load(file))
+        print(self.convert_history_to_request_payload(data))
+
+        #speedtest_history = await self.asus_get_speedtest_history()
+        #payload = self.convert_history_to_payload(speedtest_history)
+        #print(payload)
