@@ -8,10 +8,10 @@ from pyasuswrt import AsusWrtHttp
 logger = logging.getLogger(__name__)
 
 
-class SpeedTest:
+class SpeedtestClient:
     def __init__(self, config: ConfigParser):
         self._config = config
-        self._client = AsusWrtHttp(
+        self._asuswrt_client = AsusWrtHttp(
             self._config.get('asus_router', 'host'),
             self._config.get('asus_router', 'username'),
             self._config.get('asus_router', 'password'),
@@ -23,11 +23,11 @@ class SpeedTest:
         return self
 
     async def __aexit__(self, exc_type, exc_value, traceback):
-        if self._client is not None:
-            await self._client.async_disconnect()
+        if self._asuswrt_client is not None:
+            await self._asuswrt_client.async_disconnect()
 
     async def asus_get_speedtest_history(self):
-        history = json.loads(await self._client._AsusWrtHttp__send_req('ookla_speedtest_get_history()'))
+        history = json.loads(await self._asuswrt_client._AsusWrtHttp__send_req('ookla_speedtest_get_history()'))
         return history['ookla_speedtest_get_history']
 
     def parse_speedtest_history(self, history: dict, limit: int):
@@ -36,17 +36,17 @@ class SpeedTest:
     async def asus_set_speedtest_start_time(self, start_time: int):
         data = f'ookla_start_time={start_time}'
         # data = {"ookla_start_time": start_time}
-        await self._client._AsusWrtHttp__post(path='set_ookla_speedtest_start_time.cgi', command=data)
+        await self._asuswrt_client._AsusWrtHttp__post(path='set_ookla_speedtest_start_time.cgi', command=data)
 
     async def asus_start_speedtest(self):
         data_type = ""
         data_id = ""
         data = f'type={data_type}&id={data_id}'
         # data = {"type": data_type, "id": data_id}
-        await self._client._AsusWrtHttp__post(path='ookla_speedtest_exe.cgi', command=data)
+        await self._asuswrt_client._AsusWrtHttp__post(path='ookla_speedtest_exe.cgi', command=data)
 
     async def asus_get_speedtest_result(self):
-        result = json.loads(await self._client._AsusWrtHttp__send_req('ookla_speedtest_get_result()'))
+        result = json.loads(await self._asuswrt_client._AsusWrtHttp__send_req('ookla_speedtest_get_result()'))
         return result['ookla_speedtest_get_result']
 
     async def wait_and_return_speedtest_result(self, timeout: int, poll_frequency: int):
@@ -73,7 +73,7 @@ class SpeedTest:
 
     async def asus_write_speedtest_history(self, history: str):
         data = f'speedTest_history={history}'
-        await self._client._AsusWrtHttp__post(path='ookla_speedtest_write_history.cgi', command=data)
+        await self._asuswrt_client._AsusWrtHttp__post(path='ookla_speedtest_write_history.cgi', command=data)
 
     async def save_speedtest_results(self, result: dict, history_limit: int):
         history = self.parse_speedtest_history(await self.asus_get_speedtest_history(), history_limit)

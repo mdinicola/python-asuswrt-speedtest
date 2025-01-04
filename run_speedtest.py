@@ -2,7 +2,7 @@ import asyncio
 import logging
 import sys
 import configparser
-from src.speedtest import SpeedTest
+from src.asuswrtspeedtest import SpeedtestClient
 
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 logging.getLogger('asyncio').setLevel(logging.WARNING)
@@ -13,7 +13,7 @@ config.read('config/config.ini')
 
 
 async def run_speedtest():
-    async with SpeedTest(config) as speedtest:
-        await speedtest.run()
+    async with SpeedtestClient(config) as speedtest_client:
+        await speedtest_client.run()
 
 asyncio.run(run_speedtest())

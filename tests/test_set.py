@@ -2,15 +2,15 @@ import pytest
 import configparser
 import json
 from unittest.mock import patch
-from src.speedtest import SpeedTest
 from pyasuswrt import AsusWrtHttp
+from src.asuswrtspeedtest import SpeedtestClient
 
 
 @pytest.fixture(scope="module")
 def speedtest_client():
     config = configparser.ConfigParser()
     config.read('tests/config.ini')
-    return SpeedTest(config)
+    return SpeedtestClient(config)
 
 
 @pytest.fixture()
