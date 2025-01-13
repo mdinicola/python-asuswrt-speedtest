@@ -118,4 +118,4 @@ class SpeedtestClient:
             history_limit=self._config.getint('speedtest', 'history_limit')
         )
         print('Saving speedtest result...complete')
-        print(f'Save successful: {save_result['success']}')
+        print(f'Save successful: {save_result["success"]}')
