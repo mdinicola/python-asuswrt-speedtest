@@ -4,11 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "asuswrtspeedtest"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
     "pyasuswrt"
 ]
-requires-python = ">=3.12"
+requires-python = ">=3.8"
 authors = [
     { name="Mike Di Nicola", email="mike@mdinicola.com" },
 ]
